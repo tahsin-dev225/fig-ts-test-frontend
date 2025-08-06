@@ -22,7 +22,7 @@ const WhyJoin = () => {
         </h2>
       </div>
       <div className="bg-gradient-to-r grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 py-6 px-4 gap-2 justify-between items-center rounded-2xl from-[#212020d6] to-black">
-        <div className="mx-10 my-4">
+        <div className=" my-4 mx-auto">
           <div className="size-12 relative flex justify-center items-center p-3">
             <div className="absolute top-0 h-full w-full blur-sm bg-green-600  rounded-full  p-3.5"></div>
             <Image
@@ -43,7 +43,7 @@ const WhyJoin = () => {
             support.
           </p>
         </div>
-        <div className="mx-5 my-4">
+        <div className="mx-auto my-4">
           <div className="size-12 relative flex justify-center items-center p-3">
             <div className="absolute top-0 h-full w-full blur-sm bg-green-600  rounded-full  p-3.5"></div>
             <Image
@@ -63,7 +63,7 @@ const WhyJoin = () => {
             support.
           </p>
         </div>
-        <div className="mx-5 my-4">
+        <div className="mx-auto my-4">
           <div className="size-12 relative flex justify-center items-center p-3">
             <div className="absolute top-0 h-full w-full blur-sm bg-green-600  rounded-full  p-3.5"></div>
             <Image
