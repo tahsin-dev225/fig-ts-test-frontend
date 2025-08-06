@@ -11,9 +11,9 @@ type NavItem = {
 
 export const navItems: NavItem[] = [
   { name: "HOME", href: "/" },
-  { name: "why join us?", href: "/" },
-  { name: "who we are?", href: "/" },
-  { name: "pricing", href: "/" },
+  { name: "why join us?", href: "/why-join" },
+  { name: "who we are?", href: "/who-we" },
+  { name: "pricing", href: "/pricing" },
 ];
 
 const Navbar = () => {
@@ -32,7 +32,7 @@ const Navbar = () => {
         <div className="flex sm:gap-2.5 px-1.5 py-1 items-center rounded justify-center">
           {navItems?.map((item) => (
             <Link
-              className={`px-4 font-light sm:font-extrabold text-[8px] lg:text-[13px] items-center  tracking-[0%] leading-[130%] text-white py-2.5 h-max rounded-2xl ${
+              className={`px-4 font-light sm:font-extrabold text-[8px] lg:text-[11px] items-center  tracking-[0%] leading-[130%] text-white py-2.5 h-max rounded-2xl ${
                 item.name === "HOME" && "bg-[#8FEF2F] text-black!"
               } `}
               key={item.name}

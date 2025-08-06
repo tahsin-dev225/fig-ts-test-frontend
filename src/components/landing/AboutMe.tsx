@@ -65,7 +65,7 @@ const AboutMe = () => {
             <p className="">Weekly/Biweekly Calls on progress checks</p>
           </div>
         </div>
-        <div className="flex items-center w-full p-5 justify-center">
+        <div className="flex items-center w-[90%] p-5 justify-center">
           <Image
             src={"/img/earth.png"}
             className="w-[90%]"
