@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="mx-2">
           <Image
             src={logo}
-            className="w-10"
+            className="sm:w-10 w-5"
             height={60}
             width={60}
             alt="logo"

@@ -7,8 +7,8 @@ const Footer = () => {
   return (
     <div className="bg-footer bg-cover w-full bg-[#040B04] ">
       <div className=" xl:w-[85%] mx-auto">
-        <div className=" pt-10">
-          <h1 className="text-[30px] sm:text-[64px] xl:max-w-[60%] mt-16 font-akira mx-auto font-extrabold text-center ">
+        <div className=" pt-7">
+          <h1 className="text-[30px] sm:text-[64px] xl:max-w-[60%] mt-8 font-akira mx-auto font-extrabold text-center ">
             Join our community{" "}
           </h1>
 

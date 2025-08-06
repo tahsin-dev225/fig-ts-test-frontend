@@ -4,7 +4,7 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div className="xl:max-w-[85%] px-3 mx-auto my-8 mt-14">
+    <div className="xl:max-w-[85%] px-3 mx-auto my-24">
       <div className=" mb-2 ">
         <div className="flex gap-4 sm:gap-8 items-center mt-4">
           <Image
